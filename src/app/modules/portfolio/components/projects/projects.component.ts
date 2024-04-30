@@ -17,13 +17,18 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/portfolio.jpg',
       alt: 'Projeto',
-      title: 'Vida Fullstack',
-      width: '100px',
-      height: '51px',
-      description: 'oioioioioi',
-      links: [{ name: 'Conheça o Blog', href: 'https://vidafullstack.com.br' }],
+      title: "Olivier Rubinger's Portfolio",
+      width: '120px',
+      height: '120px',
+      description: "This website's Github respository!",
+      links: [
+        {
+          name: 'Go to Github',
+          href: 'https://github.com/olivierrubinger/olivier-portfolio-dev',
+        },
+      ],
     },
   ]);
 
